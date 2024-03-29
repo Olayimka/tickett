@@ -1,0 +1,6 @@
+[28-Mar-2024 22:32:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Techbeast'@'localhost' (using password: YES) in /home/freemans/public_html/pwork/Ticket-main/admin/conn.php:4
+Stack trace:
+#0 /home/freemans/public_html/pwork/Ticket-main/admin/conn.php(4): mysqli->__construct()
+#1 /home/freemans/public_html/pwork/Ticket-main/admin/signin/signin.php(2): require('/home/freemans/...')
+#2 {main}
+  thrown in /home/freemans/public_html/pwork/Ticket-main/admin/conn.php on line 4

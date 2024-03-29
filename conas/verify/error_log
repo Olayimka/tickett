@@ -1,0 +1,15 @@
+[28-Mar-2024 23:46:17 UTC] PHP Warning:  Undefined variable $ticketNO in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 98
+[29-Mar-2024 00:09:58 UTC] PHP Warning:  Undefined array key "reference" in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 14
+[29-Mar-2024 00:13:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 84
+[29-Mar-2024 00:13:11 UTC] PHP Warning:  file_put_contents(saveqr/qrcode.png): Failed to open stream: No such file or directory in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 90
+[29-Mar-2024 00:13:11 UTC] PHP Warning:  Undefined variable $ticketNO in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 110
+[29-Mar-2024 00:24:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 84
+[29-Mar-2024 00:24:03 UTC] PHP Warning:  Undefined variable $ticketNO in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 110
+[29-Mar-2024 00:52:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 15
+[29-Mar-2024 00:52:46 UTC] PHP Warning:  Undefined variable $ticketNO in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 108
+[29-Mar-2024 01:19:06 UTC] PHP Warning:  Undefined variable $college in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 107
+[29-Mar-2024 01:19:06 UTC] PHP Warning:  Undefined variable $ticketN0 in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 117
+[29-Mar-2024 01:19:06 UTC] PHP Warning:  Undefined variable $eventName in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 118
+[29-Mar-2024 01:19:06 UTC] PHP Warning:  Undefined variable $ticketType in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 119
+[29-Mar-2024 01:19:06 UTC] PHP Warning:  Undefined variable $quantity in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 120
+[29-Mar-2024 01:47:14 UTC] PHP Warning:  Undefined variable $ticketType in /home/freemans/public_html/pwork/Ticket-main/conas/verify/index.php on line 107

@@ -1,0 +1,16 @@
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Undefined array key "email" in /home/freemans/public_html/pwork/Ticket-main/session.php on line 6
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/session.php on line 13
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/session.php on line 14
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/session.php on line 15
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/session.php on line 16
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/session.php on line 17
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/session.php on line 18
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/session.php on line 19
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/session.php on line 20
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Undefined array key "eventName" in /home/freemans/public_html/pwork/Ticket-main/conas/invoice/index.php on line 6
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Undefined array key "ticketType" in /home/freemans/public_html/pwork/Ticket-main/conas/invoice/index.php on line 7
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Undefined array key "quantity" in /home/freemans/public_html/pwork/Ticket-main/conas/invoice/index.php on line 8
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Undefined array key "college" in /home/freemans/public_html/pwork/Ticket-main/conas/invoice/index.php on line 9
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Undefined array key "ticketNo" in /home/freemans/public_html/pwork/Ticket-main/conas/invoice/index.php on line 10
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Undefined array key "amount" in /home/freemans/public_html/pwork/Ticket-main/conas/invoice/index.php on line 11
+[29-Mar-2024 12:15:09 UTC] PHP Warning:  Undefined array key "unit" in /home/freemans/public_html/pwork/Ticket-main/conas/invoice/index.php on line 12

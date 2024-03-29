@@ -1,0 +1,18 @@
+[28-Mar-2024 22:27:06 UTC] PHP Warning:  Undefined array key "email" in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 6
+[29-Mar-2024 02:04:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 13
+[29-Mar-2024 02:04:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 14
+[29-Mar-2024 02:04:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 15
+[29-Mar-2024 02:04:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 16
+[29-Mar-2024 02:04:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 17
+[29-Mar-2024 02:04:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 18
+[29-Mar-2024 02:04:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 19
+[29-Mar-2024 02:04:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 20
+[29-Mar-2024 12:15:12 UTC] PHP Warning:  Undefined array key "email" in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 6
+[29-Mar-2024 12:15:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 13
+[29-Mar-2024 12:15:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 14
+[29-Mar-2024 12:15:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 15
+[29-Mar-2024 12:15:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 16
+[29-Mar-2024 12:15:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 17
+[29-Mar-2024 12:15:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 18
+[29-Mar-2024 12:15:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 19
+[29-Mar-2024 12:15:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/freemans/public_html/pwork/Ticket-main/conas/session.php on line 20

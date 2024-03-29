@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .background {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQUDBAYCB//EAD0QAAIBAwMBBQUECAUFAAAAAAECAwAEEQUSITETIkFRYQYUMnGhI4HB0QczNEJSkbHwFSRigqJDU3KS8f/EABcBAQEBAQAAAAAAAAAAAAAAAAACAQP/xAAgEQEBAAMBAAICAwAAAAAAAAAAAQIRIUESMTJCImFx/9oADAMBAAIRAxEAPwDgdGtle2FwpUBW7MqzjcScnIHlxVdqIAvJO6eHOT4VvaO+5IhwNqsoIGM81pag6NPdi5M7yL+z7CNoO7ndnwxnp41H7K8eI1dd7x7lZFLZU/CPnWtG4OOmPn/fFb1jII7C6Ts0YywgbjwU5B49fD5GtOyXL5kRnjXvSBeoA/8AtbGV6ZQZS0aFUJ7uW3fXAzW72XbAg48DwPD0rUt490TDnwwfCrueUPNIywxwgpH3Yx3QRxnn+dZVYxU6bAZWkUDPTAA5NYNVgaG8aORTGyLyrAgg56fOtyxZkEhx3gx2sDzxz9OufX0rDq8oefJZpJidzTMTlhj15znNV6hgcW7Rp2KSg7FEnasOX/eK4/d6dea6DTocWC90knIGKobFBNsQBcF/iz+NdcvZw6LCoBJWSRS3n8q553xeM9cnqMY2xtjnnr91YYbYG5iSeZYoncL220uo/l1x0wPGr29uEMtvew2tug3OVgZC8Y6DGD1HOapLppEgiXtDtWQsoHG08cg+Hh/KqlZphhRWuWUEEKTgnjI+VbVyv2bR7B3G4YcE/PzrBBNJCjxPHGROFcu6ZdQCTlT4Z8fOrGN5YZGnt5cPHIrKwwRkYI8xW5cpPpVGNg8gVCypkEhThfAZ8uazWMca3ZF7byuiKd8St2bZwcc445wfXGKXlzcGa4HasvbqBMEJUS85ywHB55+flU2QbLznlAdn39fwrfGetcqxY9354HSraw+ztN7or7HyVbkNjHB9Kr1mmgnukgkKiVWjkMTcOhwSOOo6cVdRLH/h5eA/ZsfhPoFJH86nK8VFFeS7ruZ1RUDOWCL0XPOB6ClRdq3vEmF8fKpq9o26H2enaK1EUTYMoZZhjO4bsjr8h0xVXqCNLqFyqZ4ZjjyAqz0L3dbVe87TZyuBhAOdwOecjj061XalK8WoXZj7pYunTOAcg/So/ZXiICUhUsMgxrlc4zx0rE8Dx2glPCuwxz4c/iDWSdu4pCBA0KkIpOF68D5V9VsdA9lp/wBGsd1c3CtMsO/tCcMr4J27c+ZNZcvi3W3zfS1Wa2EYVgyOdzehxj+hrZ1iNoJs/uFBtOMZxVZp0ojSTBPxDBrb1ZkMKSlJi5OwMV+zwPAH+L8MUv5Kn4tW2lgnuFXbHap2QVjuJDMFJ3H1Y49K0bwiSQY5JUVNvMsMizDYzxuCI5E3Kcc8+Yz4eNeZXMhlkIAxg90YAyatyWMNxLdosl5J2jhQgJUDAHAGAK6C9YJolmUXbvkdgM5AXyB+76VydtJiAZHG4jNW8l002lwIAcRk9ATj1Nc8p11l4wtIvu9ssm503sWVepGRnFV920gtxOnwiQxklQeqk+Ppms5v3hS0a2YxSw78SKeSSfyOKiRJl9n4p2jZrc3zbg3CsQi45/3NVRG1fGna3UUauzhisal+oz4fLJNWdkjO8lop7zTbOvj/AGKpwSGJHB9PCt5ruSW1iR2JaHuoeBhc5xwM9SeTmtymzG6YRKgvBKzOoCEqy9Q2w7fript32TNsYMHjG4lfE4J6+OfH86wSqWy4VtowMgcDy56Ct62mitJ3cxKWNqojDpvG5lGSQfQk/OjN9eY5J5/8t2kjQQh5kjJyEzjcR6niru23RaKkiBVPaOucde6Pzqis3aGclDjdDtOecg4/Kuuu4rVPYqxZZwbtriRnhxjahVADn/b/AMqjK/S5OVxN1+0P4DPFTXrUijTr2ADdwb92RhvGlW5rHR2wqeeTXjVP225JODvbFedFCyTRxySpErE5dwcL88c01P8AaJsHPJrPVT6ZdQEcjR+6o6xixSTDHJwF5yfnVdFK5SVA77AjORk4yPGrDVrh4bSwgjSNN9jGWkC99lZcFSf4eOlaWmR9r75gfBZyufuxTmm+lrKVVqz3s0pxCzt2a5YJu4B8Tjz4rVs4Dcs8aSqshQmNWz9o3QIMeJ9atPaTT7jTddu7S6haJ0UsFbrt25BrfWTelIGxVrp2nXF3oer3kURaO2EO9/BSXqoPWs0N1cRQvBFM6Qy/rEBwr/MeNb1LYluY2t4oreDskTvMS+4sxABPoO708Oa2UuHjsykcjIsgKuFPxL5H04FV/b5tY7cQwjY7N2gT7Rs44J8QMcD1NbIjkFnFOUPZOzIr+BIAJH/IVjWtM3dUHjGazyarePpSaW0xNikvarBgYEmMbs9c4JH31qy9BWKt0zbYtbaW6k7K3jMkmxn2jjgAk/0qIJFUq7KHQMCVJIDDy4rIISFjOPitXf7st+VYTFIIBN2bCFm2q+DtJA6Z86NWejWsuuazFpduwtob2cfZCTCJ5dTyR4Z5rrf0mewo9lorS7huxLG8aQsCQCCqAZA8c4rgI5pbaaKaFykq95GHUHJ5Fb+s+0Wq64Y/8UvJLjs1CoG8MDGamy742WaY2EKR2xV5DOyAyIyjaFwNpB8/i/lVvDcRtplr7w7krcYYADAiAXp4568VT3y9nJZ/6rOJvoayxyE2QHhvP4U1tu/FdP8ArWyMmlRMftGpVaQ3bDJAx/fNbGpKe2uM+ZrDpw/y8rj9zH1YCui0nS49bvZrMyCOZyeyc9Cf4T5Z86jK6u14zfFR7UR9mui/6tKgb6V0X6MvZe21uz1ae4vVgPukkCqSB8Xj9KvPbj2Ie00/TbvUGEcNnp0MBVTlnkUfCPxNfLRPPbSSCCR4d3BCHHFTP5Y6irqXaZ19xvpo4ZMtFLhXX06EVue+Xer6hPPfTPPP7pKTI5ycLGaqskn1PnXVewOirquoXiteWsI/w+5UdpJg5aMgf1zXSzU6mXv9OUFZN8fu3Z9gO17Td228524xtx068560ni7CVo96PtOMo2RWOqSnNZkbuY4rBXoHijBzXmhOaUFzayR3gijiRg1tpVwr58SN7ZH3EVT73K7N7bByFycA/Kut9gF0MS3z69cCBHtpIo23bSxdSCPljnPhj1rl7xVW5mVB3QxAx5ZqZe2K1yMl9CYo7FiP1tqHH/u4/CtdEZyAgJNWuu6/ca3b6fDcW9vELGDsUMKYLD1qw9iLS1utShjunCo7gHI8KXKyEx3eNT2gtZIW0wlSM6ZAfoa04mxa48mP4V9n/SZoGk22kW09uwDxxLED8XdA4r45FFG5dGmSJRuO5wSCQMgceJ6Cowy3FZzV2rpf1jVFJD3zSurmttKQto+rS/8AaEH1lxV/7I6pDpep+/3chSKI7gq/FIc8KPL509j/AGu07RfZrU9MvNM95mux3ZeO75fnXL6ohia1Y/8AVtlkHPmW/KuVny26S60+r+1X6QbX2i0o2LL7rIVDxybsqW/hPl86+OzsxlfcOc814Ziw5Y1FVjj8anLLZXqORoySpwSpX7iMH6E15pVpRzSppQKUpQKUqDQT05FB6VFBQTWzY3j2cyyITkHNa1Kz/Wy6dvr/ALcjU9FjsUh2yKuC9cjCxaMj5/0rVre0mIz3KxAdUlb+UbH8KmYTGcbllcvtpOcsT51NGIzSrS9oeDVhrutSawLFZbW2g9zthbqYE27wPFvX8zVapxXk9aBSopQKUoKCailCaBSoqaCailKCKmoqaBSlKBVr7OaudFvvfFtYLpuzdOznGVwwwfoTVVUr0pRLY3Hx/wDLk0ryetKCRUGpqDQKVFKCailKCailKBSlKCaVFKCaVFKAKmoFTQKCoqRQKVBpQTilTUUEUoaUClKUClKUClKUClKUClKUClKUClKUClKUE1FTUUClKUClKUClRU0ClKUClKUClKUClKUClKigmlM0oJqKUoFRSlApSlAqaUoFKUoBoKUoIpSlBNQaUoFKUoFKUoP/2Q==');
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+    }
+
+    .form-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+      width: calc(50% - 10px);
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    .form-group button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #013547;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    p {
+      font-size: 36px;
+      text-align: center;
+    }
+
+    span {
+      font-size: 18px;
+      font-weight: bolder;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      height: 36px;
+      background-color: #013547;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      text-decoration: none;
+      margin-top: 5px;
+
+      color: white;
+    }
+
+    @media screen and (max-width: 768px) {
+      .form-group {
+        width: calc(100% - 20px);
+      }
+
+      p {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <form action="signup.php" method="post">
+  <div class="container">
+    <div class="background"></div>
+    <div class="form-container">
+      <p>Welcome! Please fill in the following form to sign up:</p>
+      
+        <div class="form-group">
+          <label for="name">USERNAME</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">College</label>
+          <select class="form-control m-b" id="college" name="college">
+            <option> -----College----- </option>
+            <option value="CONAS">CONAS</option>
+            <option value="COBHS">COBHS</option>
+            <option value="COET">COET</option>
+            <option value="COLAW">COLAW</option>
+            <option value="FOHS">FOHS</option>
+            <option value="COSMAS">COSMAS</option>
+          </select>
+        </div>    
+       
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password">
+        </div>
+        <div class="form-group">
+          <label for="password">Confirm Password</label>
+          <input type="password" id="password" name="Cpassword">
+        </div>
+
+       
+    
+      <div class="form-group" style="margin-top:20px;">
+        <button type="submit" name="submit" class="btn">Sign up</button>
+        <a href="main-page.html">Submit</a>
+      </div>
+    </div>
+  </div>
+</form>
+</body>
+
+</html>
